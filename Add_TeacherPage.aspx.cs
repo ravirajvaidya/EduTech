@@ -11,6 +11,11 @@ namespace SchoolManagementSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+        }
+
+        protected void txtTeacherName_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -66,6 +66,7 @@
   <ItemGroup>
     <Content Include="Add_TeacherPage.aspx" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="Images\school.jpg" />
     <Content Include="LoginPage.aspx" />
     <Content Include="Resources\Images\SchoolLogo.png" />
     <Content Include="SignupPage.aspx" />
