@@ -1,2 +1,2 @@
 # EduTech
-Web application that is focused towards building a edutech system to manage the entire School Process 
+EduTech is a full-featured School Management Web Application designed to digitalize and simplify the complete academic process. It empowers administrators, teachers, students, and parents through a single, secure, and user-friendly platform.
