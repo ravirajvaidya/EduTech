@@ -170,10 +170,10 @@
 
                     <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn-login" OnClick="btnLogin_Click" />
 
-                    <div class="signup">
+              <%--      <div class="signup">
                         <span>Don’t have an account?</span>
                         <a href="SignupPage.aspx">Sign up</a>
-                    </div>
+                    </div>--%>
                 </div>
             </div>
         </div>
