@@ -64,6 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddTransportationPage.aspx" />
     <Content Include="Add_TeacherPage.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="LoginPage.aspx" />
@@ -72,6 +73,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTransportationPage.aspx.cs">
+      <DependentUpon>AddTransportationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddTransportationPage.aspx.designer.cs">
+      <DependentUpon>AddTransportationPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Add_TeacherPage.aspx.cs">
       <DependentUpon>Add_TeacherPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
