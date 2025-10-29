@@ -70,6 +70,7 @@
     <Content Include="LoginPage.aspx" />
     <Content Include="Resources\Images\SchoolLogo.png" />
     <Content Include="SignupPage.aspx" />
+    <Content Include="TransportationManagementPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +109,13 @@
     </Compile>
     <Compile Include="SignupPage.aspx.designer.cs">
       <DependentUpon>SignupPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TransportationManagementPage.aspx.cs">
+      <DependentUpon>TransportationManagementPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TransportationManagementPage.aspx.designer.cs">
+      <DependentUpon>TransportationManagementPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
