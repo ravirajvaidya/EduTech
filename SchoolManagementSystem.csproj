@@ -64,10 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AddDivision.aspx" />
-    <Content Include="AddStudent.aspx" />
-    <Content Include="AddTeacher.aspx" />
-    <Content Include="AddTransportation.aspx" />
+    <Content Include="Add_TeacherPage.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="Resources\Images\SchoolLogo.png" />
@@ -75,33 +72,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddDivision.aspx.cs">
-      <DependentUpon>AddDivision.aspx</DependentUpon>
+    <Compile Include="Add_TeacherPage.aspx.cs">
+      <DependentUpon>Add_TeacherPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddDivision.aspx.designer.cs">
-      <DependentUpon>AddDivision.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddStudent.aspx.cs">
-      <DependentUpon>AddStudent.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AddStudent.aspx.designer.cs">
-      <DependentUpon>AddStudent.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddTeacher.aspx.cs">
-      <DependentUpon>AddTeacher.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AddTeacher.aspx.designer.cs">
-      <DependentUpon>AddTeacher.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddTransportation.aspx.cs">
-      <DependentUpon>AddTransportation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AddTransportation.aspx.designer.cs">
-      <DependentUpon>AddTransportation.aspx</DependentUpon>
+    <Compile Include="Add_TeacherPage.aspx.designer.cs">
+      <DependentUpon>Add_TeacherPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
