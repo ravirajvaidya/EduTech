@@ -13,5 +13,24 @@ namespace SchoolManagementSystem
         {
 
         }
+        protected void lnkTeacher_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddTeacher.aspx");
+        }
+
+        protected void lnkStudent_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddStudent.aspx");
+        }
+
+        protected void lnkTransport_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddTransportation.aspx");
+        }
+
+        protected void lnkDivision_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddDivision.aspx");
+        }
     }
 }
