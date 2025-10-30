@@ -15,7 +15,7 @@ namespace SchoolManagementSystem
         }
         protected void lnkTeacher_Click(object sender, EventArgs e)
         {
-            Response.Redirect("AddTeacher.aspx");
+            Response.Redirect("Add_TeacherPage.aspx");
         }
 
         protected void lnkStudent_Click(object sender, EventArgs e)
